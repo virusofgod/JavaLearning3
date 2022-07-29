@@ -60,5 +60,31 @@ public class Main {
             System.out.println(x);
         }*/
 
+        //BUS
+        /*{
+            //bus high 437
+            //1 754 || noCrash
+            //2 300 800 || crash 1
+            // no crash
+            Scanner in = new Scanner(System.in);
+            int t = 0;
+            int i = 1;
+            int N = in.nextInt();
+            while (i < N) {
+                t = in.nextInt();
+                if(t< 437){
+                    System.out.println("CRASH " + i);
+                    break;
+                }
+                i++;
+            }
+            if(t<437){
+                System.out.println("NO CRASH");
+            }
+            else{
+                System.out.println("CRASH " + i);
+            }
+        }*/
+
     }
 }
