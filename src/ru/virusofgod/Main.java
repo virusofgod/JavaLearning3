@@ -43,11 +43,21 @@ public class Main {
         */
       /*  {
             int x =0;
-            while(x<5){
+            while(x<5){ // не сработает ни разу если условие ложно
                 System.out.print(x + " ");
                 x++;
         }
 
+        }*/
+        // do while
+        /* {
+            int x = 0;
+          do{
+              System.out.print(x + " ");
+              x++;
+        }while(x<5); // прекращает работать когда условие ложно
+                     // Сработает цикл хотябы 1 раз даже если условие ложно
+            System.out.println(x);
         }*/
 
     }
